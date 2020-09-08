@@ -23,5 +23,18 @@
     {{ partial "head_includes.html" . }}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  </head>
 
+    <!-- CSS for adding star ratings. Reference: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .fa-star, .fa-star-half-o, .fa-star-o {
+          border-color: orange;
+          color: orange;
+      }
+      .info {
+          background-color: #e7f3fe;
+          border-left: 3px solid #2196F3;
+          text-indent: 5px;
+      }
+    </style>
+  </head>
